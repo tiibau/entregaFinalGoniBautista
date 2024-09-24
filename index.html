@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>harmonyQ</title>
+  </head>
+  <body>
+    <div id="bienvenida" class="container">
+      <h1>harmonyQ</h1>
+      <input
+        type="text"
+        id="nombreUsuario"
+        placeholder="Ingresa tu nombre"
+        class="input"
+      />
+      <button id="iniciarBtn" class="button">Iniciar</button>
+    </div>
+
+    <div id="generos" class="container" style="display: none">
+      <h2>Géneros</h2>
+      <div id="listaGeneros" class="generos-list"></div>
+    </div>
+
+    <div id="beats" class="container" style="display: none">
+      <h2>Beats Disponibles</h2>
+      <div id="listaBeats" class="beats-list"></div>
+      <button id="volverAGenerosDesdeBeatsBtn" class="button">
+        Volver a Géneros
+      </button>
+      <button id="finalizarCompraBtn" class="button">Finalizar Compra</button>
+    </div>
+
+    <div id="carrito" class="container" style="display: none">
+      <h2>Tu Carrito</h2>
+      <ul id="listaCarrito" class="carrito-list"></ul>
+      <p id="montoTotal" class="total"></p>
+      <button id="calcularBtn" class="button">Calcular Total</button>
+      <input
+        type="number"
+        id="cuotas"
+        placeholder="Número de cuotas"
+        class="input"
+        min="1"
+        max="6"
+      />
+      <p id="montoCuotas" class="total"></p>
+      <button id="procederPagoBtn" class="button" style="display: none">
+        Proceder al Pago
+      </button>
+      <button id="vaciarCarritoBtn" class="button">Limpiar Carrito</button>
+      <button id="volverAGenerosDesdeCarritoBtn" class="button">
+        Volver a Géneros
+      </button>
+    </div>
+
+    <button id="volverAPrincipalBtn" class="button" style="display: none">
+      Volver al Inicio
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

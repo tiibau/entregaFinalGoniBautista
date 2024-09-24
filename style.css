@@ -1,0 +1,257 @@
+body {
+  font-family: "Exo 2", sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(8, 8, 8, 0.945);
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 20px;
+  padding: 15px 15px 80px 15px;
+  background-image: radial-gradient(
+    circle,
+    #2d102d,
+    #3b163c,
+    #491b4d,
+    #58215e,
+    #662870
+  );
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-family: "EB Garamond";
+  margin-bottom: 30px;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  font-family: "Exo 2";
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 10px;
+  width: 40%;
+  margin-right: 10px;
+  margin-left: 100px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.795);
+}
+
+#iniciarBtn {
+  padding: 10px 5px;
+  width: 20%;
+  border-radius: 5px;
+  background-color: #10af35e5;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  border: none;
+}
+
+#iniciarBtn:hover {
+  background-color: #31b84e;
+  transform: scale(1.05);
+}
+
+.generos-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#generos {
+  background-image: linear-gradient(
+    to left,
+    #250e25,
+    #2f1230,
+    #39173b,
+    #431c47,
+    #4d2154,
+    #53245d,
+    #592866,
+    #5f2b6f,
+    #622d76,
+    #65307d,
+    #683285,
+    #6a358c
+  );
+}
+
+.genero {
+  padding: 10px 20px;
+  margin: 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.genero:hover {
+  background-color: #28a745;
+  transform: scale(1.05);
+}
+
+#beats {
+  background-image: linear-gradient(
+    to left top,
+    #071f0a,
+    #08270c,
+    #08300d,
+    #09390c,
+    #0c420a,
+    #0e4b0a,
+    #115509,
+    #145f07,
+    #156c0a,
+    #15790e,
+    #148612,
+    #119416
+  );
+}
+
+.itemBeat {
+  margin: 30px auto;
+  padding: 20px;
+  border: double 8px #decbe4f5;
+  border-radius: 10px;
+  background: #292929;
+  width: 90%;
+  transition: transform 0.3s;
+}
+
+.itemBeat:hover {
+  transform: scale(1.02);
+}
+
+.imagenBeat {
+  width: 30%;
+  height: auto;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+.infoBeat {
+  flex-grow: 1;
+}
+
+button {
+  background-color: #1fe93dd3;
+  color: rgb(27, 19, 4);
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #d6e6db;
+  transform: scale(1.25);
+}
+
+#finalizarCompraBtn,
+#volverAGenerosDesdeBeatsBtn {
+  background-color: #000802e3;
+  color: white;
+  width: 150px;
+  margin: 10px auto;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#finalizarCompraBtn:hover,
+#volverAGenerosDesdeBeatsBtn:hover {
+  background-color: #31b84e;
+  transform: scale(1.15);
+}
+
+.carrito-list {
+  list-style: none;
+  padding: 0;
+}
+
+.carrito-list li {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.185);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.carrito-list li .eliminarBtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.total {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #ffd700;
+}
+
+.notificacion {
+  position: fixed;
+  right: 20px;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 1000;
+  transition: opacity 0.5s ease;
+}
+
+.notificacion.success {
+  background-color: #97a098;
+}
+
+.notificacion.error {
+  background-color: #f44336;
+}
+
+.notificacion.info {
+  background-color: #2196f3;
+}
+
+#volverAPrincipalBtn {
+  background-color: #1d5e1f;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+
+#volverAPrincipalBtn:hover {
+  background-color: #186d29;
+}
+
+#numeroCuotas {
+  color: #ffd700;
+}

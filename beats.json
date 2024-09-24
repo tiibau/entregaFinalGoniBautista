@@ -1,0 +1,63 @@
+[
+  {
+    "nombre": "'Dream' - Boom bap classic type beat",
+    "precio": 30,
+    "genero": "RAP",
+    "imagen": "./imagenes/dreams_900x600.jpg",
+    "audio": "./audios/dreams.m4a"
+  },
+  {
+    "nombre": "'Powder' - Chill 90s rap beat",
+    "precio": 35,
+    "genero": "RAP",
+    "imagen": "./imagenes/polvora-portada.jpg",
+    "audio": "./audios/powder.mp3"
+  },
+  {
+    "nombre": "'Genesis' - Hard rap beat 2024",
+    "precio": 40,
+    "genero": "RAP",
+    "imagen": "./imagenes/genesis.jpeg",
+    "audio": "./audios/genesis.mp3"
+  },
+  {
+    "nombre": "'Too good for you' - R&B beat",
+    "precio": 45,
+    "genero": "R&B",
+    "imagen": "./imagenes/simpsons.avif",
+    "audio": "./audios/tgfy.m4a"
+  },
+  {
+    "nombre": "'Money' - Instrumental R&B",
+    "precio": 50,
+    "genero": "R&B",
+    "imagen": "./imagenes/money.jpg",
+    "audio": "./audios/money.mp3"
+  },
+  {
+    "nombre": "'L.O.V.E.' - R&B new type beat",
+    "precio": 55,
+    "genero": "R&B",
+    "imagen": "./imagenes/heart1.jpg",
+    "audio": "./audios/l.o.v.e.mp3"
+  },
+  {
+    "nombre": "'Tiempos de cambiar' - Instrumental rock",
+    "precio": 60,
+    "genero": "ROCK",
+    "imagen": "./imagenes/tren.jpg"
+  },
+  {
+    "nombre": "'Esmeralda' - 'Guasones' rock type beat",
+    "precio": 65,
+    "genero": "ROCK",
+    "imagen": "./imagenes/esmeralda.png"
+  },
+  {
+    "nombre": "'Soul' - Modern rock type beat",
+    "precio": 70,
+    "genero": "ROCK",
+    "imagen": "./imagenes/soul.jpg",
+    "audio": "./audios/rock1.mp3"
+  }
+]
